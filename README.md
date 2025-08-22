@@ -372,7 +372,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+<img width="238" height="114" alt="309822352-ef7e2f21-aca3-4acd-818a-4f55a6cc180b" src="https://github.com/user-attachments/assets/f00f9a5b-165a-4dfe-a815-c65aaac6473c" />
 
 cat > file22
 ```
@@ -385,6 +385,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="245" height="117" alt="309823420-1f2963c8-35ed-4d50-9053-02ce2a88be06" src="https://github.com/user-attachments/assets/27437620-293b-450f-83ad-31b5b04804ee" />
 
 
 
@@ -392,6 +393,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="311" height="166" alt="309823860-dbf6ba03-73d0-4af8-8dc3-0d50d2d6afb4" src="https://github.com/user-attachments/assets/bf534153-8d16-4685-8cee-e5afc3f08ff3" />
 
 cat < urllist.txt
 ```
@@ -408,17 +410,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="314" height="92" alt="309824719-0729a6c7-8b70-4a6e-93dd-369f6a699821" src="https://github.com/user-attachments/assets/55b56aa3-f542-4eb6-805e-9d2c055621e0" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="328" height="92" alt="309824984-36ecee6f-5496-4b22-909a-5fe77534e6dc" src="https://github.com/user-attachments/assets/a46e31f7-bb2f-4710-bdb5-35e02d7ee4f9" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="230" height="208" alt="309825316-81b64612-f73a-4d36-8b08-a1615ab5e326" src="https://github.com/user-attachments/assets/c9080677-bc17-4f95-8825-edd0532109a9" />
 
 
 mkdir backupdir
@@ -429,18 +434,21 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="553" height="203" alt="309825519-eb10b39d-0ce2-4e71-ab67-37fc7cc9d18b" src="https://github.com/user-attachments/assets/90a446b5-544e-466a-8090-2b42a82da931" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
-
+<img width="219" height="208" alt="309826053-1b4ddf40-3c5d-45e7-ae2b-914819b4c2ec" src="https://github.com/user-attachments/assets/004f23b0-6df5-4e4b-8d2c-f69eb6480f1a" />
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="125" height="57" alt="309827418-f9334fa8-a252-415c-b056-c1f9b5d80b38" src="https://github.com/user-attachments/assets/b87cdc02-db57-4711-9f5a-d1eed4f2da8d" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="123" height="54" alt="309828162-5f0b0094-2c2c-40f3-884f-0c0dcecc24f1" src="https://github.com/user-attachments/assets/3f2874e7-8314-4fc4-9669-b7bf780de601" />
 
  
 # Shell Script
@@ -451,6 +459,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="376" height="110" alt="309830670-c7f6eac0-d1a0-4703-9a07-2d631edd84d7" src="https://github.com/user-attachments/assets/63b0a418-58eb-4862-ab62-0ff5550e863f" />
 
  
 cat << stop > herecheck.txt
@@ -463,6 +472,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="260" height="85" alt="309831247-18cbf086-541c-4bb1-92ab-c814bdf8c142" src="https://github.com/user-attachments/assets/95df32a8-6357-4eb0-b107-57430b551419" />
 
 
 cat < scriptest.sh 
@@ -501,6 +511,7 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="460" height="362" alt="309832793-888cca6e-adb3-4897-99a7-fd743ee6f1bd" src="https://github.com/user-attachments/assets/bb1bb7a2-685c-47a2-aefd-0df2d9a3c953" />
 
  
 ls file1
