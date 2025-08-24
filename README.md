@@ -1062,6 +1062,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="196" height="106" alt="309851670-f8502838-935e-4fda-9fe1-502e60e42c68" src="https://github.com/user-attachments/assets/1071ffa0-1198-43fa-b8c9-e5460a47524d" />
 
 
 
@@ -1084,6 +1085,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+ <img width="229" height="121" alt="309852244-62cd062e-c179-4e5a-9ab8-9a83f6b78032" src="https://github.com/user-attachments/assets/b291ae8d-77a0-4c7d-a09d-c8cedb459f05" />
 
  
  ./funcex.sh 1 2
@@ -1101,7 +1103,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="282" height="139" alt="309853113-e82552ac-1446-4b63-91a2-fe9947fa3ca3" src="https://github.com/user-attachments/assets/339fd84a-1f7d-4df3-a598-630ff4132969" />
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1118,7 +1121,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ <img width="240" height="118" alt="309853667-c104a58c-d3d6-4d6b-930b-d7779001e0ea" src="https://github.com/user-attachments/assets/167edd5a-41e6-413d-9d76-ff380476d513" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1131,7 +1135,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+  <img width="295" height="307" alt="309853957-be6b3831-7903-4684-a5ad-4969e49f766a-1" src="https://github.com/user-attachments/assets/278ed3c7-6341-4e7a-8e5b-b0205def8938" />
+
  
 cat > nc.awk
 ```bash
@@ -1162,7 +1167,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+  <img width="290" height="256" alt="309854432-6cc7231e-1fe4-4a75-8d76-712cf7246e4a" src="https://github.com/user-attachments/assets/b732e977-f36e-46d1-b88a-c97e1149fa06" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1189,6 +1195,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="250" height="103" alt="309855037-9d97b191-3f17-43eb-8883-e773907c2eea" src="https://github.com/user-attachments/assets/21ac0381-ffc7-41fa-8544-a61d64c07551" />
 
 
 # RESULT:
